@@ -6,19 +6,11 @@ Plugin to monitor circular geofences using mobile devices. The purpose is to not
 
 *Geofences persist after device reboot. You do not have to open your app first to monitor added geofences*
 
-## Example applications
-
-Check out our example applications:
-
-* https://github.com/cowbell/ionic-geofence built with [Ionic](http://ionic.io/) framework
-* https://github.com/tsubik/ionic2-geofence built with [Ionic 2](http://ionic.io/2) framework
-* https://github.com/cowbell/ember-geofence built with [Ember.js](http://emberjs.com/), [Cordova](https://cordova.apache.org/), [Material Design](https://www.google.com/design/spec/material-design/introduction.html)
-
 ## Installation
 
 From master
 ```
-cordova plugin add https://github.com/cowbell/cordova-plugin-geofence
+cordova plugin add https://github.com/ppiacez/cordova-plugin-geofence
 ```
 
 Latest stable version
@@ -72,7 +64,7 @@ This plugin uses Google Play Services so you need to have it installed on your d
 Plugin is written in Swift. All xcode project options to enable swift support are set up automatically after plugin is installed thanks to
 [cordova-plugin-add-swift-support](https://github.com/akofman/cordova-plugin-add-swift-support).
 
-:warning: Swift 3 is not supported at the moment, the following preference has to be added in your project :
+The following preference has to be added in your project :
 
 For Cordova projects
 
